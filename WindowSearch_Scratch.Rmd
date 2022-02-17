@@ -181,7 +181,7 @@ tictoc::toc()
 ```
 
 ```{r}
-ggplot(data=Double_tmax_30, aes(x=fall_window_start, y=spring_window_start, fill=lm_rsq))+geom_tile()+ggtitle("Double Tmax Full Window Search for LM:30")
+object <- ggplot(data=Double_tmax_30, aes(x=fall_window_start, y=spring_window_start, fill=lm_rsq))+geom_tile()+ggtitle("Double Tmax Full Window Search for LM:30")
 
 ggplot(data=Double_tmax_30, aes(x=fall_window_start, y=spring_window_start, fill=forest_rsq))+geom_tile()+ggtitle("Double Tmax Full Window Search for RF:30")
 ```
